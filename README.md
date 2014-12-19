@@ -1,36 +1,10 @@
-starter-kit
-===========
+# Rollbar Ember Example
 
-A starter kit for Ember
+This is a simple example showing how to track errors in Ember.js with [Rollbar](https://rollbar.com). It's based on the [Ember Starter Kit](https://github.com/emberjs/starter-kit).
 
-Your Ember.js project is almost ready! Here's how to get started:
+Application code, including the Rollbar-Ember instrumentation, is in `js/app.js`. To run:
 
-- Start writing your app in `js/app.js`.
+1. Start up an http server in this project's root directory: `python -m SimpleHTTPServer 8080`
+2. Open http://localhost:8080/ in your browser
 
-- Describe your application HTML in `index.html`.
 
-- During development, you can link to `js/libs/ember-*.js` to get the
-  unminified version of Ember.js.
-
-- Add CSS to `css/style.css`.
-
-- Open `index.html` in your browser.
-
-Tests
-=====
-
-This starter kit comes with an integration test sample, written for QUnit runner. 
-
-You can run the tests by opening the `index.html?test` page in your browser.
-
-The test is located in the `tests/tests.js` file. You can see how such an 
-integration test should be written, using QUnit assertions and ember-testing helpers.
-
-For more information about ember-testing package see [ember-testing](http://emberjs.com/guides/testing/integration/).
-
-For more information about the QUnit testing framework, see [QUnit](http://qunitjs.com/).
-
-Contact
-====
-
-[www.emberjs.com](http://www.emberjs.com)
